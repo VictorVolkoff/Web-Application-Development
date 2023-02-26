@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    margin: 0 auto;
+}
+
+fieldset,
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    width: 100px;
+    height: 20px;
+}
+
+#main {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+#menu {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.align_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    width: 260px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links {
+    margin: 5px 5px 5px 5px;
+    font-size: larger;
+}
+
+.default_margin {
+    margin: 15px 10px 15px 10px;
+}
+
+.margin_h2 {
+    margin: 20px 0px 10px 0px;
+}
+
+.default_input_parm {
+    width: 150px;
+}
